@@ -26,3 +26,8 @@ for i in freqDict.items():
     ansChar = i[0]
 
 print(ansChar)
+
+# Input: helloworld
+# Output: 
+# l
+# l
