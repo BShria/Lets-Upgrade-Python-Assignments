@@ -1,0 +1,19 @@
+SHOW DATABASES;
+CREATE DATABASE pythontest;
+DROP DATABASE pythontest;
+
+SELECT DATABASE() FROM dual;
+
+CREATE TABLE Student(
+Rollno int PRIMARY KEY,
+SName varchar(20),
+Mark int
+);
+
+DESC Student;
+
+INSERT INTO Student VALUES (1, 'Sam', 86);
+INSERT INTO Student VALUES (2, 'Arko', 94);
+INSERT INTO Student VALUES (3, 'Ani', 92);
+
+SELECT * FROM Student;
